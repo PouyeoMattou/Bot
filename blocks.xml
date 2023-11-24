@@ -1,0 +1,245 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id=".h!A/sQjcuY]_!$C.ByK" x="0" y="0">
+    <value name="TOKEN">
+      <block type="text" id="a=g/TdH(f7J-*K*EbJl]">
+        <field name="TEXT">MTA0MDk4NDA5Nzc2MzM3MzA5Ng.GHjga8.fcamU_8tAL5CDBC-SRjkJKv6dCsmpaW52dBU-4</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="d289(+`M(o$/|uqhiNzX" x="0" y="104">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="3qO-bZBx1;QimWVm5y*S">
+        <value name="IF0">
+          <block type="logic_compare" id="-Yve-|M;xdgu#hg10_53">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="P~}xRn5[5Ix^]V4.K.#G"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="Yn)d,G^XZKE1Gq!P6hv)">
+                <field name="TEXT">?setup</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="`k%x#0t=J=O%ZiDYz=J%">
+            <value name="CONTENT">
+              <shadow type="text" id="y%`Ev{]!.Eh}c{.T=z0B">
+                <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `1%` /</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="s4d_wait_seconds" id="(;AC$~~;|A{NacBfoInF">
+                <value name="TIME">
+                  <shadow type="math_number" id="LGoi26Sv:1a*.KIl6n:1">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="s4d_create_channel" id="hHfU4qyI+3[ZemX4Y~{i">
+                    <field name="TYPE">TEXT</field>
+                    <value name="NAME">
+                      <block type="text" id="nH_byi[D}iTAw4F1VBVq">
+                        <field name="TEXT">arriving</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="s4d_wait_seconds" id="]aK_Q9*`(.bvq*O@vUU.">
+                        <value name="TIME">
+                          <shadow type="math_number" id="7gNWMdsUOqm!@BAw}!C!">
+                            <field name="NUM">1</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="s4d_create_channel" id="B!/1GfwyI}u]bu90pblL">
+                            <field name="TYPE">TEXT</field>
+                            <value name="NAME">
+                              <block type="text" id="lVH+7y`l[hmI?c.NXk3V">
+                                <field name="TEXT">leaving</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="s4d_wait_seconds" id="X_y+{3*]B@AFNEb~~?4:">
+                                <value name="TIME">
+                                  <shadow type="math_number" id="#%)br)Jt2a8+on_@7hj(">
+                                    <field name="NUM">1</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="s4d_reply" id="-.4H*ckkG(a!5X8gL.la">
+                                    <value name="CONTENT">
+                                      <shadow type="text" id="A+tHMgXqR{ZD:V|h1#fF">
+                                        <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `6%` //////</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="s4d_create_channel" id="/CH)`Ok#l$IQ;3(UtNJn">
+                                        <field name="TYPE">TEXT</field>
+                                        <value name="NAME">
+                                          <block type="text" id="c9i@yD%G0Yex]Y;ANp(z">
+                                            <field name="TEXT">news</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="s4d_create_channel" id="G[.u((6nZ47)F21Q{jh=">
+                                            <field name="TYPE">TEXT</field>
+                                            <value name="NAME">
+                                              <block type="text" id="29PR%~bofrbkf97.vX_F">
+                                                <field name="TEXT">rules</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="s4d_wait_seconds" id="b7(L@EqI@JMIpIlW/c=V">
+                                                <value name="TIME">
+                                                  <shadow type="math_number" id="]X_}-P_o2KSI03CSZC-z">
+                                                    <field name="NUM">1</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="s4d_reply" id="CMPb8n:7t1c~HxPlCoFl">
+                                                    <value name="CONTENT">
+                                                      <shadow type="text" id="C,HS|)!K`8,0CEmMq-2H">
+                                                        <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `16%` ////////////////</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="s4d_create_channel" id="D}O0fK0GAk6**9wM[ZP!">
+                                                        <field name="TYPE">TEXT</field>
+                                                        <value name="NAME">
+                                                          <block type="text" id="2!xp?OcF9^k{dqcQobZr">
+                                                            <field name="TEXT">general</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="s4d_reply" id="*o=c/QAi[82/+dAFxG{E">
+                                                            <value name="CONTENT">
+                                                              <shadow type="text" id="FN}n7C20/nGjiwI~3oP^">
+                                                                <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `18%` //////////////////</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="s4d_wait_seconds" id="FH-4l$.%AAt3OfbrUDAy">
+                                                                <value name="TIME">
+                                                                  <shadow type="math_number" id="8h:el%Set~Yr%*aQ.$ag">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="s4d_create_channel" id="g!7`}:?F1(ed{EjfWB2f">
+                                                                    <field name="TYPE">TEXT</field>
+                                                                    <value name="NAME">
+                                                                      <block type="text" id="cZ/R%dprq4:{X1FF%mC[">
+                                                                        <field name="TEXT">media</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="s4d_wait_seconds" id="{Znhb|iI+TyI2r6c(7RD">
+                                                                        <value name="TIME">
+                                                                          <shadow type="math_number" id="MrlkTjTKYwh^Bm{c2FYM">
+                                                                            <field name="NUM">1</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="s4d_create_channel" id="3G`p#C$=b.5M?AzZt2ll">
+                                                                            <field name="TYPE">TEXT</field>
+                                                                            <value name="NAME">
+                                                                              <block type="text" id="^+elHj,4Jd,nX@vs9i9f">
+                                                                                <field name="TEXT">commands</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="s4d_reply" id="9eBrmFk#a0-bk`+F2~q|">
+                                                                                <value name="CONTENT">
+                                                                                  <shadow type="text" id="GlGtVacZUh$E+RK?yFXf">
+                                                                                    <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `26%` //////////////////////////</field>
+                                                                                  </shadow>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="s4d_create_channel" id="w[7UhO*W?I^f/~Mn8;6/">
+                                                                                    <field name="TYPE">VOICE</field>
+                                                                                    <value name="NAME">
+                                                                                      <block type="text" id="8oI)]eemP{Id)%Sr`aA3">
+                                                                                        <field name="TEXT">voice 1</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="s4d_create_channel" id="wt`vLjC1mY-w[Em4Ii%L">
+                                                                                        <field name="TYPE">VOICE</field>
+                                                                                        <value name="NAME">
+                                                                                          <block type="text" id="XYOl=6EibZMcS~mdD4/`">
+                                                                                            <field name="TEXT">voice 2</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="s4d_create_channel" id="Wr!#(~3l/2fJ79z.leK.">
+                                                                                            <field name="TYPE">VOICE</field>
+                                                                                            <value name="NAME">
+                                                                                              <block type="text" id="HBX,?=tH88r.$RL$0cfj">
+                                                                                                <field name="TEXT">voice 3</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="s4d_wait_seconds" id="y}+4W#.m4HHxF+JCi~A,">
+                                                                                                <value name="TIME">
+                                                                                                  <shadow type="math_number" id="6-E;[0j2uV26)F*-s[if">
+                                                                                                    <field name="NUM">1</field>
+                                                                                                  </shadow>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="s4d_reply" id="R%m$FGdP(tcjE|:BCM=(">
+                                                                                                    <value name="CONTENT">
+                                                                                                      <shadow type="text" id="K+T(T^CpA(*,k8utB#jN">
+                                                                                                        <field name="TEXT">`SELENIUM`                            `Selenium Basic 0.1 Setup Install :`                        `41%` /////////////////////////////////////////</field>
+                                                                                                      </shadow>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
